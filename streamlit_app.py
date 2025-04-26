@@ -8,4 +8,4 @@ t = st.number_input("masukan tinggi(cm)",0)
 
 if st.button("Hitung Volume", type="primary"):
   v = math.pi*(r**2)*t
-  st.success(f'Volume tabung adalah {f:.2f}')
+  st.success(f'Volume tabung adalah {v:.2f}')
