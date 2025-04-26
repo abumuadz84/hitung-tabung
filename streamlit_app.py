@@ -8,7 +8,7 @@ t = st.number_input("masukan tinggi(cm)",0)
 
 if st.button("Hitung Volume", type="primary"):
   loading = st.progress(0)
-  for i range(100):
+  for i in range(100):
   time.sleep(0.01)
   loading.progress(i+1)
   v = math.pi*(r**2)*t
